@@ -34,7 +34,7 @@ nav .nav-item{
     color: #fff;
     margin: 0px 10px ;
 }
-nav div.cont{
+nav div.container{
     display: flex;
 }
 nav div.nav-item.app{
@@ -97,4 +97,35 @@ div.search-box div{
     align-items: center;
     height: 50px;
     margin: 0px 50px;
+}
+/*header section section complete*/
+
+/* */
+section.nearby{
+    min-height: 40vh;
+}
+section.nearby div.container{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+section.nearby div.container h3{
+    font-size: 2.2rem;
+    font-weight: unset;
+}
+section.nearby div.box {
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+section.nearby div.box:hover{
+    box-shadow: rgba(80, 55, 55, 0.24) 0px 3px 8px;
+    cursor: pointer;
 }
