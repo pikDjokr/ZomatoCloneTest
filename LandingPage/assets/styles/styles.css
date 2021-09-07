@@ -129,3 +129,18 @@ section.nearby div.box:hover{
     box-shadow: rgba(80, 55, 55, 0.24) 0px 3px 8px;
     cursor: pointer;
 }
+section.app{
+    height: 200px;
+    background-color: #fefbf6;
+}
+section.app div.container{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section.app div.container img{
+    max-width: 300px;
+    display: block;
+}
